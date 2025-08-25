@@ -38,6 +38,8 @@ class Book:
         self.rating = rating
         return True
 
+    def get_notes_of_page(self,page:int) -> list[Note]:
+
 
 
 
